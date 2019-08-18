@@ -14,8 +14,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/sdm710-common/sdm710-common-vend
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage \
-    $(LOCAL_PATH)/overlay-xenonhd
+    $(LOCAL_PATH)/overlay-aosip
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
@@ -41,6 +40,11 @@ PRODUCT_PACKAGES += \
 # Common init scripts
 PRODUCT_PACKAGES += \
     init.qcom.rc
+
+# PE stuff
+PRODUCT_PACKAGES += \
+    PlaygroundMod \
+    WallpapersBReel2018
 
 # Device-specific settings
 PRODUCT_PACKAGES += \

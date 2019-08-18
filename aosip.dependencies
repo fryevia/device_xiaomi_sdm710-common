@@ -1,0 +1,33 @@
+[
+  {
+    "repository"  : "KudProject/kernel_xiaomi_sdm710",
+    "target_path" : "kernel/xiaomi/sdm710",
+    "revision"    : "pie"
+  },
+  {
+    "repository"  : "DerpFest-Devices/vendor_xiaomi_sdm710-common",
+    "target_path" : "vendor/xiaomi/sdm710-common"
+  }
+  {
+    "repository"  : "DerpFest-OP5T/platform_vendor_pixelstyle",
+    "target_path" : "vendor/pixelstyle"
+  },
+  {
+    "repository"  : "PixelExperience/vendor_gapps",
+    "target_path" : "vendor/gapps",
+    "branch"      : "pie",
+    "remote"      : "gitlab"
+  },
+  {
+    "repository"  : "PixelExperience/packages_apps_WallpapersBReel2018",
+    "target_path" : "packages/apps/WallpapersBReel2018",
+    "branch"      : "pie",
+    "remote"      : "gitlab"
+  },
+  {
+    "repository"  : "PixelExperience/packages_apps_Playground",
+    "target_path" : "packages/apps/Playground",
+    "branch"      : "pie",
+    "remote"      : "gitlab"
+  },
+]
