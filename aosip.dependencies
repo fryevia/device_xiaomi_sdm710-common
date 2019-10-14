@@ -1,8 +1,8 @@
 [
   {
-    "repository"  : "KudProject/kernel_xiaomi_sdm710",
+    "repository"  : "okitavera/msm-4.9-grus-okita",
     "target_path" : "kernel/xiaomi/sdm710",
-    "revision"    : "pie"
+    "revision"    : "staging/ten"
   },
   {
     "repository"  : "DerpFest-Devices/vendor_xiaomi_sdm710-common",
