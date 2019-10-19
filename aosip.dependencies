@@ -2,7 +2,7 @@
   {
     "repository"  : "okitavera/msm-4.9-grus-okita",
     "target_path" : "kernel/xiaomi/sdm710",
-    "revision"    : "staging/ten"
+    "revision"    : "pie"
   },
   {
     "repository"  : "DerpFest-Devices/vendor_xiaomi_sdm710-common",
