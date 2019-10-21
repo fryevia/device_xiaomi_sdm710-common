@@ -67,7 +67,7 @@ def AddModemAssertion(info, input_zip):
 def AddVendorAssertion(info, input_zip):
   android_info = info.input_zip.read("OTA/android-info.txt")
   v = re.search(r'require\s+version-vendor\s*=\s*(.+)', android_info)
-  if v and miui_version:
+  if v:
     build_date_utc, vndk_version = v.group(1).rstrip().split(',')
     build_date_utcs = build_date_utc.split('|')
     cmd = 'assert('
